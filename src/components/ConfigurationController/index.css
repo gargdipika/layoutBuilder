@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.layout-container {
+  background-color: #475569;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 90vw;
+}
+.card {
+  padding: 20px;
+}

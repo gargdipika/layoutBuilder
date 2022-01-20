@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.list-item-style {
+  list-style: none;
+}
+.unordered-list-container {
+  display: flex;
+  width: 80vw;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.unordered-list-one {
+  background-color: #e2e8f0;
+  margin: 0px;
+  padding: 10px;
+  width: 15vw;
+  margin-right: 2px;
+}
+.container-2 {
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+.list-style-box {
+  height: 130px;
+  width: 130px;
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.container-3 {
+  background-color: #e2e8f0;
+  margin: 0px;
+  margin-left: 2px;
+  padding-left: 20px;
+  width: 25vw;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .unordered-list-container {
+    flex-direction: column;
+  }
+  .unordered-list-one {
+    width: 80vw;
+    padding: 0;
+  }
+  .container-3 {
+    width: 80vw;
+  }
+}
